@@ -1,0 +1,36 @@
+{
+  "name": "sqlex-keywords",
+  "version": "1.0.0",
+  "description": "SQL reserved keywords for SQLite, MySQL, Postgres, Oracle and SQL Server databases",
+  "main": "dist/keywords.js",
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "SQL Keywords",
+    "SQLite",
+    "MySQL",
+    "Postgres",
+    "Oracle",
+    "SQL Server"
+  ],
+  "author": "Weidong Fang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fangwd/sqlex-keywords.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "types": ["jest"],
+    "typeRoots": ["node_modules/@types"],
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": ["es6", "dom"],
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/*.test.ts"]
+}
