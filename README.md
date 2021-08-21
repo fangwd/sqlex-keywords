@@ -18,3 +18,8 @@ expect(isReserved('FILE', 'postgres')).toBe(false);
 expect(isReserved('FILE', 'oracle')).toBe(true);
 expect(isReserved('FILE', 'mssql')).toBe(true);
 ```
+
+## References
+
+[1] https://en.wikipedia.org/wiki/SQL_reserved_words
+[2] https://www.sqlite.org/lang_keywords.html
