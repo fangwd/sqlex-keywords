@@ -3,7 +3,7 @@ Check if a string is a reserved SQL keyword for SQLite, MySQL, PostgreSQL, Oracl
 ## Syntax
 
 ```ts
-isReserved(keyword: string, dialect?: 'sqlite' | 'mysql' | 'postgres' | 'mssql' | 'oracle')
+isReserved(keyword: string, dialect?: 'sqlite3' | 'mysql' | 'postgres' | 'mssql' | 'oracle')
 ```
 
 ## Usage
