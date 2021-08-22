@@ -1,6 +1,6 @@
 {
   "name": "sqlex-keywords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SQL reserved keywords for SQLite, MySQL, Postgres, Oracle and SQL Server databases",
   "main": "dist/keywords.js",
   "files": [
